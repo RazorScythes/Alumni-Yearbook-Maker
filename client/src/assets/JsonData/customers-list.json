@@ -1,0 +1,39 @@
+
+[
+{
+    "full_name": {
+      "first_name": "f",
+      "middle_name": "g",
+      "last_name": "h"
+    },
+    "_id": "60f1c08d12d18d06fc5d406b",
+    "student_number": "1819-1121",
+    "quotes": "TANGINA MO JHEPOY DIZON",
+    "batch_id": {
+      "_id": "60f1c05112d18d06fc5d4065",
+      "academic_year": "2022 - 2023",
+      "__v": 0
+    },
+    "createdAt": "2021-07-16T17:23:25.240Z",
+    "updatedAt": "2021-07-16T17:23:25.240Z",
+    "__v": 0
+  },
+  {
+    "full_name": {
+      "first_name": "dsad",
+      "middle_name": "",
+      "last_name": ""
+    },
+    "_id": "60f1c08d12d18d06fc5d406b",
+    "student_number": "1819-1121",
+    "quotes": "TANGINA MO JHEPOY DIZON",
+    "batch_id": {
+      "_id": "60f1c05112d18d06fc5d4065",
+      "academic_year": "2022 - 2023",
+      "__v": 0
+    },
+    "createdAt": "2021-07-16T17:23:25.240Z",
+    "updatedAt": "2021-07-16T17:23:25.240Z",
+    "__v": 0
+  }
+]

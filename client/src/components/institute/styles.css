@@ -1,0 +1,49 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.wrapCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.gridDisplay{
+    width:100%;
+    display: inline-block;
+}
+
+.profileGrid{
+    width: 295px;
+    float:left;
+    border:1px dashed gray;
+}
+
+.profileGrid img{
+    object-fit: cover;
+}
+
+
+.dragzoneProfile{
+    border-radius: 20px;
+    border: 2px dashed #0A2558;
+    position: relative;
+    width:100%;
+    margin: auto;
+    height:150px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.dragzoneProfile > div {
+    margin: auto;
+    margin-top:20px;
+    text-align: center;
+}
+.dragzoneProfile > div i {
+    font-size: 50px;
+    margin:0
+}
+
+.remove-img:hover{
+    cursor: pointer;
+}

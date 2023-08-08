@@ -1,0 +1,260 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+  nav .sidebar-button i{
+    font-size: 35px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  nav .profile-details i{
+    font-size: 25px;
+    color: #333;
+  }
+  
+  nav .search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  
+  nav .search-query {
+    width: 250px;
+    max-height: 520px;
+    overflow-y: auto;
+    background: #fff;
+    position: absolute;
+    right: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  nav .search-query > ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav .search-query > ul > li {
+    padding: 10px 20px;
+  }
+
+  nav .search-query > ul > li:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+  nav .search-box .bx-search{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #2697FF;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.4 ease;
+  }
+  
+  nav .profile-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  nav .profile-details .admin_name{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+  
+  nav .profile-details i{
+    font-size: 25px;
+    color: #333;
+  }
+
+
+  .button {
+      outline: none;
+      border: none;
+  }
+
+
+/*      DROPDOWN       */
+
+.topnav__right {
+  display: inline-flex;
+  align-items: center;
+}
+
+.topnav__right-item{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.topnav__right-item ~ .topnav__right-item {
+  margin-left: 30px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.notification-item:hover {
+  background-color: var(--second-bg);
+}
+
+.notification-item > i {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.topnav__right-user {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__right-user__image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.topnav__right-user__image > img {
+  width: 100%;
+}
+
+.topnav__right-user__name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 99;
+}
+
+.dropdown__toggle {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  position: relative;
+}
+
+.dropdown__toggle > i {
+  font-size: 2.5rem;
+}
+
+.dropdown__toggle-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #d9534f;
+  color: #f7f7f7;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.dropdown__content {
+  position: absolute;
+  top: calc(100% + 2px);
+  right: 11%;
+  width: 100%;
+  max-width: 400px;
+  max-height:600px;
+  background-color: white;
+  box-shadow: 2px 3px 3px gray;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  transform-origin: top right;
+  transform:scale(0);
+  transition: transform 0.3s top 0s;
+  overflow-y: auto;
+  scrollbar-width: none;
+  z-index: 999;
+}
+
+.topnav__right-item button{
+  z-index: 99;
+}
+
+.notification__inner-label{
+  padding:10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  width:100%;
+  color:white;
+  background-color:#0A2558;
+}
+
+.dropdown__content.active {
+  transform: scale(1);
+  transition: transform 0.5s var(--transition-cubic);
+}
+
+.dropdown__footer {
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 850px) {
+  .dropdown__content {
+    right: 11%;
+    width: 100%;;
+    max-width: 400px;
+    right:20%;
+  }
+}
+
+@media (max-width: 700px) {
+  nav .search-box input{
+    float:right;
+    width: 90%;
+    font-size: 15px;
+  }
+  .dropdown__content {
+    right: 11%;
+    width: 100%;;
+    max-width: 350px;
+    right:20%;
+  }
+}
+
+@media (max-width: 550px) {
+    nav .search-box input{
+      float:right;
+      width: 70%;
+      font-size: 15px;
+    }
+    .dropdown__content {
+      right: 11%;
+      width: 100%;;
+      max-width: 300px;
+      right:25%;
+    }
+}

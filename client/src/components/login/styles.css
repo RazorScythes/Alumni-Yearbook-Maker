@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url();
+
+.login-form{
+  display: inline-block;
+  width:100%;
+  height:100vh;
+  background-image: url("../../images/mccbackground.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.email_sent h2 {
+  color: #5cb85c;
+}
+
+.email_sent > span{
+  margin: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color:#FF0000;
+}
+
+.email_sent > span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forgot_password, .email_sent {
+    font-family: Raleway, sans-serif;
+    position:absolute;
+    color: #666;
+    right:0; left: 0;
+    margin: 10% auto;
+    transform: translateY(-50%, -50%);
+    padding: 60px 50px;
+    max-width: 600px;
+    width:100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #666;
+    text-align: center;
+}
+.forgot_password > h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #B22222;
+}
+
+.forgot_password > div {
+  margin-bottom: 10px;
+}
+
+.forgot_password > div > p {
+  color: red;
+  font-weight: 500;
+}
+.forgot_password input[type="email"]{
+  width: 80%;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.forgot_password input[type="submit"]{
+  width: 50%;
+  margin: 10px;
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #d9534f;
+  border: none;
+  box-shadow: 2px 2px 2px #C0c0c0;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.forgot_password > span{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color:#FF0000;
+}
+
+.forgot_password > span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.forgot_password input[type="submit"]:hover{
+  background-color: #B22222;
+}
+
+.login {
+    font-family: Raleway, sans-serif;
+    position:absolute;
+    color: #666;
+    right:0; left: 0;
+    margin: 10% auto;
+    transform: translateY(-50%, -50%);
+    padding: 60px 50px;
+    max-width: 400px;
+    width:100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #666;
+}
+.login > img {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    left:30%;
+    top:-75px;
+}
+
+.login input[type=text], .login input[type=password], .login input[type=submit] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 2px; 
+    font-family: Raleway, sans-serif;
+}
+
+.login input[type=text],
+.login input[type=password] {
+  border: 1px solid #c0c0c0;
+  transition: .2s;
+}
+
+.login input[type=text]:hover {
+  border-color: #F44336;
+  outline: none;
+  transition: all .2s ease-in-out;
+} 
+
+.login input[type=submit] {
+  border: none;
+  background: #EF5350;
+  color: white;
+  font-weight: bold;  
+  transition: 0.2s;
+  margin: 10px 0px;
+}
+
+.login input[type=submit]:hover {
+  background: #F44336;  
+}
+
+  .login h2 {
+    margin: 20px 0 0; 
+    color: #EF5350;
+    font-size: 28px;
+  }
+
+.login p {
+  margin-bottom: 20px;
+}
+
+.links {
+  display: table;
+  width: 100%;  
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.links a:first-child {
+  text-align: left;
+}
+
+.links a:last-child {
+  text-align: right;
+}
+
+.login h2,
+.login p,
+.login a {
+  text-align: center;    
+}
+
+.login a {
+  text-decoration: none;  
+  font-size: .8em;
+}
+
+.login a:visited {
+  color: inherit;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+.login > label {
+  width: 100%;
+  text-align: center;
+  color:#FF0000;
+}
+.login > label:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media (max-width: 750px) {
+  .login {
+    font-family: Raleway, sans-serif;
+    position:absolute;
+    color: #666;
+    right:0; left: 0;
+    margin: 10% auto;
+    transform: translateY(-50%, -50%);
+    padding: 60px 50px;
+    max-width: 350px;
+    width:100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #666;
+  }
+}
+
+@media (max-width: 400px) {
+  .login {
+    font-family: Raleway, sans-serif;
+    position:absolute;
+    color: #666;
+    right:0; left: 0;
+    margin: 10% auto;
+    padding-top: 60px;
+    max-width: 90%;
+    width:100%;
+  }
+  .login > img {
+    position:absolute;
+    width: 130px;
+    height:130px;
+    left:30%;
+    top:-75px;
+  }
+}
+/*
+  Error Code Display
+*/
+
+.error_display{
+  font-family: 'Lato', sans-serif;
+  color: #888;
+  margin: 0;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.error_display-home{
+  font-family: 'Lato', sans-serif;
+  color: #888;
+  margin: 0;
+  display: table;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+}
+
+.fof{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof.white{
+  color: #fff;
+}
+
+.fof h1{
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .5s alternate infinite;
+}
+
+.fof p {
+  font-size: 1.5em;
+}
+
+.fof h3{
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .5s alternate infinite;
+}
+
+@media (max-width: 550px) {
+  .fof h3{
+    font-size: 18px;
+  }
+
+  .fof h1{
+    font-size: 33px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .5s alternate infinite;
+  }
+  
+  .fof p {
+    font-size: 1.2em;
+  }
+
+}
+
+@keyframes type{
+  from{box-shadow: inset -3px 0px 0px #888;}
+  to{box-shadow: inset -3px 0px 0px transparent;}
+}

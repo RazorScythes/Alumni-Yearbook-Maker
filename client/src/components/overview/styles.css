@@ -1,0 +1,89 @@
+  @import 'bootstrap/dist/css/bootstrap.min.css';
+  .overview-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-bottom: 26px;
+  }
+  .overview-boxes .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 4 - 15px);
+    padding: 15px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+
+  .overview-boxes .box.student{
+    background: linear-gradient(25deg, #0275d8, #fff 40%);
+  }
+
+  .overview-boxes .box.section{
+    background: linear-gradient(25deg, #5cb85c, #fff 40%);
+  }
+
+  .overview-boxes .box.events{
+    background: linear-gradient(25deg, #f0ad4e, #fff 40%);
+  }
+
+  .overview-boxes .box-topic{
+    justify-content: center;
+    width:62%;
+    float: left;
+    font-size: 17px;
+    font-weight: 400;
+    color:#313131
+  }
+  .home-content .box .number{
+    justify-content: center;
+    width:62%;
+    display: inline-flex;
+    font-size: 35px;
+    margin-top: -6px;
+    font-weight: 500;
+  }
+  .home-content .box .indicator{
+    display: flex;
+    align-items: center;
+  }
+  .home-content .box .bx{
+    float: left;
+    height: 70px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    color: #000;
+    font-size: 70px;
+    margin-right: 10px;
+  }
+  .box .indicator i.down{
+    background: #e87d88;
+  }
+  .home-content .box .indicator .text{
+    font-size: 12px;
+  }
+
+
+@media (max-width: 750px) {
+    .overview-boxes .box-topic{
+        font-size: 17px;
+    }
+    .home-content .box .number{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+  .overview-boxes .box.hide{
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .overview-boxes .box-topic, .home-content .box .number{
+      width: 100%;
+  }
+}

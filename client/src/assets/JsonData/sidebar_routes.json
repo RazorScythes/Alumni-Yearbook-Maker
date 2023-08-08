@@ -1,0 +1,27 @@
+[
+    {"route": "/admin", "display_name": "Overview"},
+    {"route": "/admin/template", "display_name": "Yearbook Design"},
+    {"route": "/admin/pdf_maker", "display_name": "Generate Yearbook PDF"},
+    {"route": "/admin/institute", "display_name": "Institute"},
+    {"route": "/admin/administration", "display_name": "Administration"},
+    {"route": "/admin/exercise-gallery", "display_name": "Gallery"},
+    {"route": "/admin/honor&awards", "display_name": "Honor and Awards"},
+    {"route": "/admin/news&events", "display_name": "News & Events"},
+    {"route": "/admin/commence", "display_name": "Commencement Message"},
+    {"route": "/admin/inbox", "display_name": "Inbox"},
+    {"route": "/admin/change-password", "display_name": "Account"},
+    {"route": "/admin/account-manage", "display_name": "Manage Accounts"},
+    {"route": "/admin/logout"},
+
+    {"route": "/admin/template/new", "display_name": "Yearbook Design"},
+    {"route": "/admin/institute/ics", "display_name": "Institute of Computing Studies"},
+    {"route": "/admin/institute/ihtm", "display_name": "Institute of Hotel and Tourism Management"},
+    {"route": "/admin/institute/ibe", "display_name": "Institute of Business Education"},
+    {"route": "/admin/institute/iaste", "display_name": "Institute of Arts, Science and Teacher Education"},
+
+    {"route": "/admin/news&events/news", "display_name": "News"},
+    {"route": "/admin/news&events/events", "display_name": "Events"},
+
+    {"route": "/admin/pdf_maker/pdf-control", "display_name": "PDF Control"},
+    {"route": "/admin/pdf_maker/orders", "display_name": "Orders"}
+]
